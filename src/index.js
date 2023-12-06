@@ -27,7 +27,7 @@ let products = [
 ];
 
 app.get("/", (req, res) => {
-  res.send("Welcome to my first server");
+  res.send("Welcome to my server😊❤️");
 });
 app.get("/products", (req, res) => {
   res.send({
